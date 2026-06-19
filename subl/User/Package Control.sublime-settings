@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AutoFileName",
+		"BracketHighlighter",
+		"CMake",
+		"Dockerfile Syntax Highlighting",
+		"GitGutter",
+		"LaTeXTools",
+		"LSP",
+		"LSP-clangd",
+		"LSP-jdtls",
+		"LSP-json",
+		"LSP-pylsp",
+		"LSP-pyright",
+		"LSP-rust-analyzer",
+		"LSP-typescript",
+		"MarkdownPreview",
+		"Package Control",
+		"Rust Enhanced",
+		"SideBarEnhancements",
+		"SingleTrailingNewLine",
+		"TOML",
+		"TrailingSpaces",
+		"TreeSitter",
+	],
+}

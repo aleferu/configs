@@ -1,0 +1,43 @@
+{
+    "font_size": 11,
+    "theme": "Adaptive.sublime-theme",
+    "color_scheme": "Mariana.sublime-color-scheme",
+    "auto_complete_delay": 500,
+    "translate_tabs_to_spaces": true,
+    "remember_workspace": false,
+    "hot_exit": false,
+    "remember_open_files": false,
+    "default_line_ending": "system",
+    "word_wrap": true,
+    "dark_color_scheme": "Mariana.sublime-color-scheme",
+    "index_files": true,
+    "draw_white_space": ["all"],
+
+    // VIM
+    "relative_line_numbers": true,
+    "vintage_use_clipboard": true,
+    "ignored_packages": [
+        "Rust",
+    ],
+
+    // Ignore some directories
+    "folder_exclude_patterns": [
+        ".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*", //Default
+        ".venv", ".vscode", ".ruff_cache", "__pycache__", ".mypy_cache", ".pytest_cache", "build"
+    ],
+    "auto_complete_triggers":
+    [
+        {
+            "characters": "<",
+            "selector": "text.html, text.xml",
+        },
+        {
+            "rhs_empty": true,
+            "selector": "punctuation.accessor",
+        },
+        {
+            "characters": "\\",
+            "selector": "text.tex.latex",
+        }
+    ],
+}

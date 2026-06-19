@@ -1,0 +1,6 @@
+// Settings in here override those in "LSP-pylsp/LSP-pylsp.sublime-settings"
+{
+    "pylsp.plugins.pycodestyle.ignore": ["E501"],
+    "pylsp.plugins.pycodestyle.maxLineLength": 150,
+    "enabled": false,
+}
