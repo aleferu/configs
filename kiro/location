@@ -1,0 +1,9 @@
+# Kiro config symlink targets
+# Format: <file_in_this_repo> -> <target_path>
+#
+# argv.json            -> ~/.kiro/argv.json
+# settings/cli.json    -> ~/.kiro/settings/cli.json
+# settings/permissions.yaml -> ~/.kiro/settings/permissions.yaml
+# powers/installed.json -> ~/.kiro/powers/installed.json
+# steering/            -> ~/.kiro/steering/
+# agents/              -> ~/.kiro/agents/

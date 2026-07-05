@@ -1,0 +1,37 @@
+rules:
+  - capability: shell
+    match:
+      - python3 *
+      - head *
+      - cat *
+      - tail *
+      - grep *
+      - tr *
+      - jq *
+      - ls *
+      - .venv/bin/python *
+      - awk *
+      - sed *
+      - sort *
+      - uniq *
+      - wc *
+      - pdftotext *
+      - uv *
+      - cd *
+      - rm *
+      - echo *
+      - true *
+      - mkdir *
+      - find *
+      - diff *
+    effect: allow
+  - capability: web_fetch
+    effect: allow
+  - capability: web_search
+    effect: allow
+  - capability: fs_read
+    effect: allow
+  - capability: fs_write
+    effect: allow
+  - capability: shell
+    effect: allow
