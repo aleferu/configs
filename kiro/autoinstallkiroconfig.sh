@@ -19,6 +19,9 @@ ln -sf "$REPO_DIR/settings/cli.json" "$HOME/.kiro/settings/cli.json"
 rm -f "$HOME/.kiro/settings/permissions.yaml"
 ln -sf "$REPO_DIR/settings/permissions.yaml" "$HOME/.kiro/settings/permissions.yaml"
 
+rm -f "$HOME/.kiro/settings/mcp.json"
+ln -sf "$REPO_DIR/settings/mcp.json" "$HOME/.kiro/settings/mcp.json"
+
 rm -f "$HOME/.kiro/powers/installed.json"
 ln -sf "$REPO_DIR/powers/installed.json" "$HOME/.kiro/powers/installed.json"
 
