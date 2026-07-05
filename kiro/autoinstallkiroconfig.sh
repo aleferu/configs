@@ -25,11 +25,18 @@ ln -sf "$REPO_DIR/settings/mcp.json" "$HOME/.kiro/settings/mcp.json"
 rm -f "$HOME/.kiro/powers/installed.json"
 ln -sf "$REPO_DIR/powers/installed.json" "$HOME/.kiro/powers/installed.json"
 
+# Individual files (continued)
+rm -f "$HOME/.kiro/extensions/extensions.json"
+ln -sf "$REPO_DIR/extensions.json" "$HOME/.kiro/extensions/extensions.json"
+
 # Whole directories
 rm -rf "$HOME/.kiro/steering"
 ln -sf "$REPO_DIR/steering" "$HOME/.kiro/steering"
 
 rm -rf "$HOME/.kiro/agents"
 ln -sf "$REPO_DIR/agents" "$HOME/.kiro/agents"
+
+rm -rf "$HOME/.kiro/skills"
+ln -sf "$REPO_DIR/skills" "$HOME/.kiro/skills"
 
 echo "Kiro configuration installed!"

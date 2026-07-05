@@ -6,5 +6,7 @@
 # settings/permissions.yaml -> ~/.kiro/settings/permissions.yaml
 # settings/mcp.json         -> ~/.kiro/settings/mcp.json
 # powers/installed.json     -> ~/.kiro/powers/installed.json
+# extensions.json           -> ~/.kiro/extensions/extensions.json
 # steering/                 -> ~/.kiro/steering/
 # agents/                   -> ~/.kiro/agents/
+# skills/                   -> ~/.kiro/skills/

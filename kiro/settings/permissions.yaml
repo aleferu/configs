@@ -30,6 +30,7 @@ rules:
       - mv *
       - chmod *
       - bash *
+      - ln *
     effect: allow
   - capability: web_fetch
     effect: allow
