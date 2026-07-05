@@ -1,0 +1,5 @@
+# Git config symlink targets
+# Format: <file_in_this_repo> -> <target_path>
+#
+# gitconfig -> ~/.gitconfig
+
