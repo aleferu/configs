@@ -8,6 +8,7 @@ REPO_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Ensure target directories exist
 mkdir -p "$HOME/.kiro/settings"
 mkdir -p "$HOME/.kiro/powers"
+mkdir -p "$HOME/.kiro/extensions"
 
 # Individual files
 rm -f "$HOME/.kiro/argv.json"
