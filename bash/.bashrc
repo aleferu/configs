@@ -8,6 +8,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias lh='ls -lah'
 alias :q='exit'
+alias kiro-cli='kiro-cli chat --trust-all-tools'
 
 # PATH
 export PATH="/home/aleferu/bin:$PATH"
